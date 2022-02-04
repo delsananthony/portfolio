@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+/* VARIABLES */
+:root {
+  --footer-height: 0px;  
+}
+
+.main-container {
+  border: 3px solid blue;
+  height: 100vh;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* NAVBAR */
+.nav-container {
+  font-family: Sans, "Century Gothic", Segoe UI, Verdana;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.nav-container > nav {
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 10px;
+  border: 3px solid green;
+}
+
+.nav-container > nav ul {
+  margin: 0;
+  float: right;
+}
+
+.nav-container  > nav > ul > li {
+  display: inline;
+}
+
+/* LANDING AREA */
+
+.landing-container {
+  font-family: "Century Gothic";
+  font-weight: bold;
+  font-size: 52pt;
+  height: max-content;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.landing-container > ul {
+  list-style: none;
+}
+
+.below {
+  border: 3px solid red;
+  font-family: Sans, "Century Gothic", Segoe UI, Verdana;
+  font-size: 24pt;
+  height: initial;
+  display: flex;
+  justify-content: center;
+}
+
+/* PROJECTS */
+
+.project-container {
+  border: 3px solid tomato;
+  padding: 15;
+/*   position: absolute; */
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+
+}
+
+.project-container > div {
+/*   border: 1px solid orange; */
+  flex: 1;
+  margin: 5px;
+}
+
+/* PROJECT CARD */
+
+.project-card {
+  font-family: Sans serif, "Verdana", Segoe UI;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.project-title {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.project-image {
+  margin: 15px;
+  min-height: 150px;
+}
+
+.project-url {
+  font-style: italic;
+  float: right;
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
